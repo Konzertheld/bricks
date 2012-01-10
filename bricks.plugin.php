@@ -38,8 +38,9 @@ class Bricks extends Plugin
 			switch($action) {
 				case _t('Configure'):
 					$ui = new FormUI('postfields');
-					$ui->append('static', 'typelabel', _t('Add bricks', array('keine ahnung','unsicher')));
+					$ui->append('static', 'typelabel', _t('Add bricks'));
 					$ui->append('textmulti', 'bricks', 'bricks_bricks', 'Available bricks:');
+					$ui->bricks->raw = true;
 					$ui->append('submit', 'submit', 'Submit');
 					$ui->out();
 			}
