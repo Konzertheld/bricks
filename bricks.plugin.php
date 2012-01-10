@@ -74,16 +74,6 @@ class Bricks extends Plugin
 	}*/
 
 	/**
-	 * Add help text to plugin configuration page
-	 **/
-	public function help()
-	{
-		// eeh? How is this used to display sourcecode?
-		$help = _t( 'Usage: Enter brickname=brickvalue in one of the fields in the configuration. Brickname can contain a-Z, 0-9, underscores and dashes. Brickvalue can be anything. Be careful with html, Habari sometimes messes it up. In post content, use {brickname} and it will be replaced with brickvalue automatically when the post is displayed. {i} is a predefined brick that inserts your current Habari base path so you can create internal links using {i}slug.', 'bricks' );
-		return $help;
-	}
-
-	/**
 	 * Nothing to do here atm
 	 **/
 	public function action_init()
