@@ -1,4 +1,6 @@
 <?php
+namespace Habari;
+
 /**
  * A plugin to use predefined and user-generated text bricks.
  *
