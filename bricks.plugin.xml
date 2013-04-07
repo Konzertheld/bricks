@@ -3,9 +3,9 @@
 	<name>Bricks</name>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<author url="http://konzertheld.de/">Christian Gredig</author>
-	<version>0.2</version>
+	<version>0.3</version>
 	<description><![CDATA[A plugin to use predefined and user-generated text bricks.]]></description>
-	<copyright>2010-2011</copyright>
+	<copyright>2010-2013</copyright>
 	<help>
 		<value><![CDATA[
 			<p>Usage: Enter <code>brickname=brickvalue</code> in one of the fields in the configuration. Brickname can contain a-Z, 0-9, underscores and dashes. Brickvalue can be anything. In post content, use <code>{brickname}</code> and it will be replaced with brickvalue automatically when the post is displayed. {i} is a predefined brick that inserts your current Habari base path so you can create internal links using <code>{i}slug</code>.</p>
